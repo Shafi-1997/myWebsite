@@ -1,10 +1,10 @@
 * body {
-    box-sizing:content-box;
-    border: 0px;
+    /* box-sizing:content-box; */
     margin: 0px;
-    width: 100%;
-    background-color: rgb(236, 227, 227);
-    background-image: url(C:\Users\shishf\Desktop\SS\Icons\linkedin.png);
+    padding: 0px;
+    height: auto;
+    background-color: rgba(240, 232, 232, 0.993);
+    /* background-image: url("C:\Users\shishf\Desktop\SS\Icons\linkedin.png"); */
    }
 /*
      font-family, text-align font-size background:rgba() opacity 
@@ -12,54 +12,69 @@
  border-width border-color 
 */ 
 
-
-h1{
-    background-color: rgb(196, 31, 146);
+h1,h3{
+    background-color: rgb(0, 0, 0);
     color: #fff;
-    padding:1px;
     text-align: center;
+    margin-bottom: 1px; 
     }
-.h1 {
-     background-color: rgb(196, 31, 146);
+
+/* Navigation bar style start here*/
+
+ ul{ 
+   margin: 0px;
+   padding:0px;
+   list-style-type: none;
+   height: 30px;
+   line-height: 30px;
+   background-color: #000000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   position: sticky;
 }
 
-.me {border: 4px black ;
-     font-size: 140%;
-     font-style: italic ;
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     font-weight: bolder;
-     padding-bottom: 20px;
-     padding-top: 30px;
-     text-decoration: underline;
-     text-align: center;
+li {
+  float: left;
+  border: 1px solid #fff; 
+  }
 
+ a {display: block;
+  padding:0px 30px;
+  color: #fff;
+  text-decoration: none;
+} 
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: rgb(70, 204, 30);
+  color:rgb(0, 0, 0);
 }
 
-.para  {
-    border-width: 1px;
+ /* To let the user know which page he/she is on */
+li a.active {
+  background-color:  rgb(70, 204, 30);
+  color: rgb(0, 0, 0);
+}
+
+  
+  
+
+    /* Navigation bar style ends Here  */
+
+
+/* footer,h5,#email, #linkedin {
+        background-color: rgb(2, 2, 2); 
+        text-align: center;
+        font-family:sans-serif;
+        text-decoration:none;
+        color: snow;
+        float: inline-start;
+        border-left-color: blue; 
+        
+    }
     
-    line-height: 1.6rem;
-    padding: 5px 10px ;
-
-
-}
-
-
-
-footer{
-    margin-top: 10px;
-    margin:blue;
-    border-style: dotted;
-    border-left-color: blue;
-    padding-top: 10px ;
-    padding-bottom: 10px ;
-    text-align: center;
-    background-color: rgb(204, 40, 196);
-    
-}
-
-#linkedin, #email { 
-    border-style: dotted;
-    border-radius: 10px;
-    padding: 2px 5px;
-}
+.para {
+        border: 5px solid black;
+        margin: 5px 10px;
+        background: cadetblue;
+    }     */

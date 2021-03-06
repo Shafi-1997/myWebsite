@@ -19,18 +19,47 @@ h1{
 
 }
 
-div {
- height: auto;
- padding: 10px;
- box-sizing: border-box;
+
+/* Navigation bar style start here*/
+
+
+ul{ 
+  margin: 0px;
+  padding:0px;
+  list-style-type: none;
+  height: 30px;
+  line-height: 30px;
+  background-color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  position: sticky;
 }
 
-nav{
-  border-style: solid;
-  text-decoration-color: lawngreen;
-  margin: 20px;
-  box-sizing: border-box;
+li {
+ float: left;
+ border: 1px solid #fff; 
+ }
+
+a {display: block;
+ padding:0px 30px;
+ color: #fff;
+ text-decoration: none;
+} 
+
+/* Change the link color on hover */
+li a:hover {
+ background-color: rgb(70, 204, 30);
+ color:rgb(0, 0, 0);
 }
+
+/* To let the user know which page he/she is on */
+li a.active {
+ background-color:  rgb(70, 204, 30);
+ color: rgb(0, 0, 0);
+}
+
+
+/* Navigation bar style ends Here  */
 h4{
  text-align: center ;
  text-decoration: solid underline;
