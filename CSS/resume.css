@@ -1,6 +1,8 @@
 body {
-    background-image: linear-gradient(to right, rgba(110, 105, 98, 0.61) , rgb(0, 195, 255));
-   }
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  background-color: rgba(240, 232, 232, 0.993);}
 /*
   font-family, text-align font-size background:rgba() opacity 
   border-style =dotted dashed solid double groove 
@@ -9,7 +11,7 @@ border-width border-color
 
 h1{
  background-image: rgb(93, 194, 207);
- color: #fff;
+ color: rgb(10, 10, 10);
  border: 20px 10px;
  border-style: double;
  border-color: black;
@@ -23,7 +25,7 @@ h1{
 /* Navigation bar style start here*/
 
 
-ul{ 
+nav>ul{ 
   margin: 0px;
   padding:0px;
   list-style-type: none;
@@ -35,12 +37,12 @@ ul{
   position: sticky;
 }
 
-li {
+nav>ul>li {
  float: left;
  border: 1px solid #fff; 
  }
 
-a {display: block;
+nav a {display: block;
  padding:0px 30px;
  color: #fff;
  text-decoration: none;
