@@ -12,12 +12,12 @@ h1,h3{
     background-color: rgb(0, 0, 0);
     color: #fff;
     text-align: center;
-    margin-bottom: 1px; 
+    margin-top: 0px; 
     }
 
 /* Navigation bar style start here*/
 nav{
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
  ul{ 
@@ -60,27 +60,24 @@ li a.active {
 }
 
 @media only screen and (max-width: 600px) {
-  nav ul {margin-bottom: 100px;
-  
-}
-
+  nav ul {margin-bottom: 100px;}
   nav ul li  {
       display: block;
       float: none;
       background-color: #000000;
       border: 1px solid #fff; 
+      width: 100%;
           
       }
-  
     }
     /* Navigation bar style ends Here  */
-
-  h4 {
+h4 {
        margin: 0%;      
        padding: 0%;
-       font-weight: bold;
+       font-weight: bold italic;
        text-transform: uppercase;
-       text-align: center;
+       text-align: center ;
+       background-color: rgba(192, 115, 15,0. 1);
     }
  
 
